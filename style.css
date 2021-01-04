@@ -1,0 +1,431 @@
+@import url(https://fonts.googleapis.com/css?family=Google+Sans);
+
+.btn {
+  border-radius: 4px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  width: 150px;
+  background-color: lightslategray;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+}
+
+.hi {
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: #111;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+.bo {
+  border-radius: 0px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+  background-color: #111;
+  border: none;
+}
+
+.ho {
+  border-radius: 10px;
+  background-color:lightblue;
+  padding: 20px;
+  border: none;
+  color:black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nia {
+  border-radius: 40px;
+  background-color:lightblue;
+  border: none;
+  color:black;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.bye {
+  border-radius: 4px;
+  background-color: #111;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.no {
+  border-radius: 4px;
+  background-color: #111;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+*{
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section{
+    padding: 5px 0;
+}
+
+.hello, .proj, .interests, .awardsorg, .info, footer{
+    font-family: 'Google Sans',serif;
+    font-size: 20px;
+}
+.hello .hello-content, 
+.proj .serv-content,
+.interests .interests-content,
+.info .info-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    font-family: 'Google Sans',serif;
+}
+section .title:before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 100px;
+    height: 2px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.tabstop .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tabstop .name a{
+    color:grey;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Google Sans',serif;
+}
+
+.tabstop .name t start{
+    color: #111;
+    transition: all 0.3s ease;
+}
+
+.tabstop.sticky .name t start{
+    color: #111;
+}
+
+.tabstop .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.tabstop .menu li a{
+    display: block;
+    color: grey;
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    font-family: 'Google Sans',serif;
+}
+
+.min-width{
+    max-width: 1250px;
+    padding: 0 80px;
+    margin: auto;
+    max-height: 200px;
+}
+
+.max-width{
+    max-width: 1250px;
+    padding: 0 80px;
+    margin: auto;
+}
+.buttons{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.hello .hello-content .left{
+    width: 45%;
+}
+.hello .hello-content .left img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.hello .hello-content .right{
+    width: 55%;
+}
+
+.hello .hello-content .right .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.proj {
+    color:#111;
+    background:white;
+}
+
+.awardsorg
+{
+    color:#111;
+    background:white;
+}
+
+.proj .serv-content .card{
+    width: calc(33% - 20px);
+    background: beige;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.proj .serv-content .card:hover{
+    background:lightslategray;
+}
+
+.proj .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+
+.proj .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.proj .serv-content .card:hover i{
+    color: #fff;
+}
+
+.proj .serv-content .card .text{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.awardsorg .marginside .card{
+    background: white;
+    border-radius: 30px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.awardsorg .marginside .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.awardsorg .marginside .card:hover .box{
+    transform: scale(1.05);
+}
+
+.awardsorg .marginside .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.awardsorg .marginside .card img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0%;
+    border: 5px solid black;
+    transition: all 0.3s ease;
+}
+
+.awardsorg .marginside .card:hover img{
+    border-color: #fff;
+}
+
+footer{
+    background: blanchedalmond;
+    padding: 15px 23px;
+    color: darkslategray;
+    text-align: center;
+}
+
+footer start t{
+    color: black;
+    text-decoration: none;
+}
+
+footer start t:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 1300px) {
+    .home .max-width{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1104px) {
+    .hello .hello-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 947px){
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+
+    .tabstop .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    .tabstop .menu.active{
+        left: 0;
+    }
+
+    .tabstop .menu li{
+        display: block;
+    }
+
+    .tabstop .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .home .home-content .text-2{
+        font-size: 70px;
+    }
+
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+
+    .home .home-content a{
+        font-size: 30px;
+        padding: 10px 30px;
+    }
+
+    .max-width{
+        max-width: 930px;
+    }
+
+    .hello .hello-content .column{
+        width: 100%;
+    }
+
+    .hello .hello-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .hello .hello-content .right{
+        flex: 100%;
+    }
+
+    .proj .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .interests .interests-content .column,
+    .info .info-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 10px;
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 60px;
+    }
+    .home .home-content a{
+        font-size: 60px;
+    }
+    .proj .serv-content .card{
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .home .home-content .text-2{
+        font-size: 100px;
+    }
+
+    @media (max-width: 400px) {
+    .hi{
+        font-size: 50px;
+    }
+
+    @media (max-width: 400px) {
+    .bye{
+        font-size: 50px;
+    }
+
+    @media (max-width: 400px) {
+    .no{
+        font-size: 50px;
+    }
+
+
+}.scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 30px;
+        line-height: 38px;
+    }
