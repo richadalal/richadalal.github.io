@@ -33,4 +33,3 @@ Check it out at https://richame.netlify.app!
 
 
 
-Learning from / References : CodingNepal & W3 Schools 
