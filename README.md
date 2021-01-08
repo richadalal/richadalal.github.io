@@ -50,7 +50,6 @@ Check it out at https://richame.netlify.app!
 
 
 
-Learning from / References : W3 Schools & Coding Nepal
 
 
 
